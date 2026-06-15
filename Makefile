@@ -7,7 +7,7 @@ endif
 .PHONY: build test vet install clean
 
 build:
-	go build -o $(BIN) .
+	go build -o $(BIN) ./cmd/dsh
 
 test:
 	go test ./...
@@ -16,7 +16,7 @@ vet:
 	go vet ./...
 
 install:
-	go install .
+	go install ./cmd/dsh
 
 clean:
 	rm -f $(BIN)

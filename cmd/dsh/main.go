@@ -8,8 +8,8 @@ import (
 	"os/signal"
 	"syscall"
 
-	"dsh/internal/groups"
-	"dsh/internal/runner"
+	"github.com/goldbach/dsh-go/internal/groups"
+	"github.com/goldbach/dsh-go/internal/runner"
 )
 
 // multiFlag collects repeated flag values (e.g. -g web -g db).
