@@ -4,8 +4,18 @@ A Go implementation of [dsh](https://www.netfort.gr.jp/~dancer/software/dsh.html
 
 ## Install
 
+**With Go:**
 ```sh
 go install github.com/goldbach/dsh-go/cmd/dsh@latest
+```
+
+**From a release tarball:**
+
+Download the archive for your platform from the [releases page](https://github.com/goldbach/dsh-go/releases), extract it, and copy the `dsh` binary to somewhere on your `PATH`:
+
+```sh
+tar -xzf dsh-go_linux_amd64.tar.gz
+sudo mv dsh /usr/local/bin/
 ```
 
 ## Usage
